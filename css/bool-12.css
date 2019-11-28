@@ -3,9 +3,7 @@
   margin: 0;
   padding: 0;
 }
-.debug {
-  height: 100vh;
-}
+
 .container {
   max-width: 1170px;
   margin: 0 auto;
