@@ -1,0 +1,25 @@
+.container {
+  height: 20%;
+  background-color: #F1B5C1;
+}
+
+[class*="col-"] {
+border: 1px solid black;
+height: 100%;
+position: relative;
+}
+
+.nested > div {
+  border: 1px solid white;
+  background: #BB5A6B;
+}
+.nested {
+  padding: 5px
+}
+
+.container p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
