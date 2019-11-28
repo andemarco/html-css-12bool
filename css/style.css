@@ -1,18 +1,25 @@
 .container {
-  height: 20%;
   background-color: #F1B5C1;
+  height: 20%;
+}
+.container2 {
+  height: 100%;
 }
 [class*="col-"] {
-  border: 1px solid black;
   height: 100%;
+  border: 1px solid black;
   position: relative;
 }
-.nested > div {
+.nested .col-2,
+.nested .col-8,
+.nested .col-6  {
+  height: 100%;
   border: 1px solid white;
   background: #BB5A6B;
 }
+
 .nested {
-  padding: 5px
+  padding: 5px;
 }
 .container p {
   position: absolute;
